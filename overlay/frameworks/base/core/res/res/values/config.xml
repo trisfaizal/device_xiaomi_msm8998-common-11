@@ -331,8 +331,4 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
-
-    <!-- Button backlight -->
-    <bool name="config_button_brightness_support">true</bool>
-    <integer name="config_button_brightness_default">128</integer>
 </resources>
