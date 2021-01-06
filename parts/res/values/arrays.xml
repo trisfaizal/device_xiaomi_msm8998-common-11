@@ -16,15 +16,13 @@
 
     <!-- spectrum profiles -->
     <string-array name="spectrum_profiles">
-        <item>Balance</item>
-        <item>Standard</item>
-        <item>Performance</item>
-        <item>Battery</item>
+        <item>schedutil</item>
+        <item>interactive</item>
+        <item>schedutil (Battery)</item>
     </string-array>
     <string-array name="spectrum_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
 </resources>
