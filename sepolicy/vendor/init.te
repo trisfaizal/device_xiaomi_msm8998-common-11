@@ -5,3 +5,6 @@ dontaudit init adsprpcd_file:filesystem relabelto;
 
 # move-goodix-data-sh for fingerprint sensor
 coredata_datavendor_migration(move-fp-data-sh, fingerprintd_data_file, fingerprint_vendor_data_file);
+
+# Allow init to write to sysfs_battery_supply
+allow init sysfs_battery_supply:file { setattr }; 
